@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+### Do you have any idea what this blog is all about?
+
+> It's just me talking to myself about myself and some other techy stuff you know!!!! 😅
