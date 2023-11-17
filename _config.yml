@@ -24,10 +24,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Chamber of Secrets
 website: 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
+# baseurl: "/guidelines" 
 url: https://gaurav-chaurasia.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gaurav-chaurasia
 instagram_username: gkc.in
 twitter_username: gkc_tweets
+
+
+
+
+
 
 # Navigation:
 #   title: Contact
@@ -36,7 +42,8 @@ twitter_username: gkc_tweets
 
 # Build settings
 theme: minima
-theme: just-the-docs
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
