@@ -8,3 +8,5 @@ layout: home
 Do you know what this blog is all about?
 
 > It's just me talking to myself about myself and some other techy stuff you know!!!! 😅
+
+{: .no_toc }
