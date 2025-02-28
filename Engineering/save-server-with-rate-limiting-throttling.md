@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Protect Your Server: Mastering Rate Limiting & Throttling
+title: Mastering Rate Limiting and Throttling
 nav_order: 6
 permalink: /engineering/RateLimitingAndThrottling
 ---
 
-# Protect Your Server: Mastering Rate Limiting & Throttling
+# Mastering Rate Limiting and Throttling
 {: .no_toc }
 
 ---
