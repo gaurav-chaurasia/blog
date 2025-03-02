@@ -147,6 +147,7 @@ Let’s take the 0/1 Knapsack Problem as an example:
 
 
 1. **Recursive Solution (Exponential Time Complexity: O(2ⁿ))**
+
 ```cpp
 int knapsack(vector<int> wt, vector<int> val, int w, int n) {
     if (n == 0 || w == 0)  
@@ -165,6 +166,7 @@ int knapsack(vector<int> wt, vector<int> val, int w, int n) {
 ```
 
 2. **Top-Down DP Solution (Time Complexity: O(n * W))**
+
 ```cpp
 int knapsack_td(vector<int> wt, vector<int> val, int w, int n) {
     int dp[n + 1][w + 1];
