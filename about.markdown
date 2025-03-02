@@ -32,3 +32,7 @@ However, within the Chamber of Secrets, it's not limited to technology and the c
 So, let this journey begin, 
 
 shall we?
+
+---
+
+{% include FeaturedBlogs.html %}

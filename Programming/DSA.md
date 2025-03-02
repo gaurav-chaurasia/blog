@@ -10,10 +10,17 @@ permalink: /programming/dsa
 # Data Structures and Algorithms
 {: .no_toc }
 
----
+## Table of contents
+{: .no_toc .text-delta }
+1. TOC
+{:toc}
+--- 
 
-
-
-<br>
 
 Work in progress...
+
+
+
+---
+
+{% include FeaturedBlogs.html %}

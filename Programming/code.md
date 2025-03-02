@@ -8,6 +8,12 @@ permalink: /programming/code
 ---
 
 # Code
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+1. TOC
+{:toc}
 
 ---
 
@@ -17,3 +23,8 @@ permalink: /programming/code
 >  
 > — [Me (hehehe)](https://www.instagram.com/gkc.in/)
 >
+
+
+---
+
+{% include FeaturedBlogs.html %}
