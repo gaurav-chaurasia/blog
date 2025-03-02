@@ -4,6 +4,9 @@ title: Rate Limiting and Throttling
 parent: Engineering
 nav_order: 6
 permalink: /engineering/RateLimitingAndThrottling
+date: 2025-03-02
+description: "Explore rate limiting and throttling techniques to control API usage and prevent abuse in distributed systems."
+
 ---
 
 # Mastering Rate Limiting and Throttling

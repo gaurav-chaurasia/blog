@@ -44,12 +44,22 @@ twitter_username: gkc_tweets
 theme: minima
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
+# color_scheme: dark
+sass:
+  style: compressed
+  load_paths:
+    - _sass
 plugins:
   - jekyll-feed
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+
+featured_posts:
+  - /programming/dp
+  - /engineering/RateLimitingAndThrottling
 
 
 # Exclude from processing.

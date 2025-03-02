@@ -8,6 +8,8 @@ categories: [Dynamic Programming, Algorithms]
 tags: [dp, recursion, optimization]
 toc: true
 toc_sticky: true
+date: 2025-01-01
+description: "Learn how to break down complex problems into simpler subproblems using dynamic programming."
 ---
 
 # How to Conquer Dynamic Programming
