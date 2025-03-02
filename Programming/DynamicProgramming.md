@@ -194,7 +194,7 @@ int knapsack_td(vector<int> wt, vector<int> val, int w, int n) {
 - In recursion, the function repeatedly recalculates values.
 - In DP, we store results in a table and use them directly.
 - The time complexity improves from `O(2ⁿ)` to `O(n * W)`.
-- Just to give you some scale, switching from `O(2ⁿ)` to `O(n * W)` reduces execution time from ~18 minutes (1 billion operations) to ~1.5 milliseconds (1,500 operations) for `n = 30, W = 50`, assuming a modern processor executes ~1 billion `(10⁹)` operations per second
+- Just to give you some scale, switching from `O(2ⁿ)` to `O(n * W)` reduces execution time from 1,073 milliseconds (1 billion operations) to ~1.5 milliseconds (1,500 operations) for `n = 30, W = 50`, assuming a modern processor executes ~1 billion `(10⁹)` operations per second
 
 
 ---
