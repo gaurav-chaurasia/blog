@@ -26,6 +26,7 @@ website:
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 # baseurl: "/guidelines" 
 url: https://gaurav-chaurasia.github.io # the base hostname & protocol for your site, e.g. http://example.com
+favicon_ico: "/assets/favicon.svg"
 github_username:  gaurav-chaurasia
 instagram_username: gkc.in
 twitter_username: gkc_tweets
