@@ -1,4 +1,4 @@
-<div class="featured-blogs">
+<!-- <div class="featured-blogs">
   <h1>📌 Featured Posts</h1>
   <div class="cards-container mt-6">
     {% for path in site.featured_posts %}
@@ -14,3 +14,32 @@
     {% endfor %}
   </div>
 </div>
+ -->
+
+<div class="featured-blogs">
+  <h1>📌 Featured posts</h1>
+  <div class="cards-container mt-6">
+    {% assign has_featured_posts = false %}
+
+    {% for path in site.featured_posts %}
+      {% assign post = site.pages | where: "permalink", path | first %}
+      {% if post and post.url != page.url %}
+        {% assign has_featured_posts = true %}
+        <div class="blog-card">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p class="description">{{ post.description }}</p>
+          <a class="read-more" href="{{ post.url | relative_url }}">Read More →</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% unless has_featured_posts %}
+      <div class="blog-card">
+        <h3>No Featured Posts</h3>
+        <p class="description">There are no featured posts at the moment. Check back later for updates!</p>
+      </div>
+    {% endunless %}
+  </div>
+</div>
+
