@@ -1,0 +1,80 @@
+// Override default colors
+:root {
+  --color-primary: #000000;
+  --color-link: #000000;
+  --color-btn-primary: #000000;
+  --color-btn-primary-text: #ffffff;
+}
+
+// Apply styles
+a {
+  color: var(--color-link) !important;
+  border-color: var(--color-link);
+}
+
+.btn {
+  background-color: var(--color-btn-primary) !important;
+  color: var(--color-btn-primary-text) !important;
+  border-color: var(--color-btn-primary) !important;
+}
+
+svg {
+  color: var(--color-primary);
+}
+
+
+
+
+
+.featured-blogs {
+  margin-top: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.blog-card {
+  background: #f9f9f9;
+  color: #333;
+  border-radius: 6px;
+  padding: 15px;
+  width: 280px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: translateY(-3px);
+}
+
+.blog-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.blog-card .date {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.blog-card .description {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.blog-card .read-more {
+  font-size: 13px;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blog-card .read-more:hover {
+  text-decoration: underline;
+}

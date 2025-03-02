@@ -18,21 +18,49 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: blog
-email: gaurav.181CV155@nitk.edu.in
+title: Chamber of Secrets
+email: gaurav-chaurasia@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/blog/" # the subpath of your site, e.g. /blog
-url: "https://gaurav-chaurasia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gkc_tweets
+  Chamber of Secrets
+website: 
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+# baseurl: "/guidelines" 
+url: https://gaurav-chaurasia.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gaurav-chaurasia
+instagram_username: gkc.in
+twitter_username: gkc_tweets
+
+
+
+
+
+
+# Navigation:
+#   title: Contact
+#   url: https://gaurav-chaurasia.github.io
+
 
 # Build settings
 theme: minima
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+# color_scheme: dark
+sass:
+  style: compressed
+  load_paths:
+    - _sass
 plugins:
   - jekyll-feed
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+
+featured_posts:
+  - /programming/dp
+  - /engineering/RateLimitingAndThrottling
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
