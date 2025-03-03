@@ -24,7 +24,7 @@ layout: home
     <div class="col-xs-12 col-sm-12 col-md-8">
       <div class="text-center">
           <a href="/"> 
-            <button id="home" class="btn">
+            <button id="home" class="btn see-more">
               Back to home
             </button>
           </a>

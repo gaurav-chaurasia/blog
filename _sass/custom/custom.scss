@@ -78,3 +78,34 @@ svg {
 .blog-card .read-more:hover {
   text-decoration: underline;
 }
+
+
+// button styles
+.see-more {
+  font-size: 1rem;
+  width: 10rem;
+  z-index: 1000;
+  color: #000000 !important;
+  background-color: white !important;
+  border: 1px solid #979797;
+  border-radius: 50px;
+  pointer-events: all;
+  padding: 10px 5px;
+  box-shadow: none;
+}
+
+.see-more:focus {
+  outline: none;
+}
+
+.see-more:hover {
+  background-color: #000000 !important;
+  text-decoration: none;
+  border: 1px solid #000 !important;
+  color: #fff !important;
+  transition: 0.2s ease-in-out;
+}
+
+.see-more a {
+  text-decoration: none !important;
+}

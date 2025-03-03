@@ -43,7 +43,7 @@ twitter_username: gkc_tweets
 
 # Build settings
 theme: minima
-# theme: just-the-docs
+theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 # color_scheme: dark
 sass:
