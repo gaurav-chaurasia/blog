@@ -14,7 +14,7 @@ description: "Improve your online conversations by getting straight to the point
 
 
 
-# Stop Saying Just "Hello" – Get to the Point!
+# Enough with the ‘Hello’—Spit It Out!
 Have you ever received a message that just says "Hello"… and then nothing? It leaves the other person waiting, unsure of what you need. Instead of making conversations slower, try getting straight to the point.
 
 
