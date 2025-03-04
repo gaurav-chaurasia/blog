@@ -60,7 +60,7 @@ kramdown:
 
 featured_posts:
   - /programming/dp
-  # - /engineering/RateLimitingAndThrottling
+  - /nohello
 
 
 # Exclude from processing.
