@@ -34,5 +34,89 @@ So, let this journey begin,
 shall we?
 
 ---
+<!-- 
+<div class="button-container">
+    <a href="/" class="icon-button">
+        <span class="icon">🏡</span>
+        <span class="text">Back to Home</span>
+    </a>
+    <a href="https://github.com/gaurav-chaurasia" target="_blank" class="icon-button">
+        <span class="icon">🐙</span>
+        <span class="text">GitHub</span>
+    </a>
+    <a href="https://linkedin.com/in/gaurav-chaurasia" target="_blank" class="icon-button">
+        <span class="icon">🔗</span>
+        <span class="text">LinkedIn</span>
+    </a>
+    <a href="https://twitter.com/gkc_tweets" target="_blank" class="icon-button">
+        <span class="icon">🐦</span>
+        <span class="text">Twitter</span>
+    </a>
+    <a href="https://instagram.com/gkc.in" target="_blank" class="icon-button">
+        <span class="icon">📸</span>
+        <span class="text">Instagram</span>
+    </a>
+</div> -->
+
+<!-- <style>
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap;
+    padding: 0 10px;
+    background: white;
+    color: black;
+    position: relative;
+}
+
+
+.text {
+    /* font-size: 14px; */
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    margin-left: 0px;
+    font-weight: 400;
+}
+
+.icon-button:hover {
+    width: 180px;
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.icon-button:hover .text {
+    opacity: 1;
+    width: auto;
+    margin-left: 10px;
+    color: #FFF
+}
+
+.home .text {
+    opacity: 1;
+    width: auto;
+    margin-left: 10px;
+}
+</style> -->
+
 
 {% include FeaturedBlogs.html %}
