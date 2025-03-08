@@ -22,7 +22,7 @@ title: Chamber of Secrets
 email: gaurav-chaurasia@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Chamber of Secrets
-website: 
+website: https://gaurav-chaurasia.github.io
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 # baseurl: "/guidelines" 
 url: https://gaurav-chaurasia.github.io # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,18 +32,14 @@ instagram_username: gkc.in
 twitter_username: gkc_tweets
 
 
-
-
-
-
 # Navigation:
 #   title: Contact
 #   url: https://gaurav-chaurasia.github.io
 
 
 # Build settings
-theme: minima
-# theme: just-the-docs
+# theme: minima
+theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 # color_scheme: dark
 sass:
@@ -57,6 +53,9 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
 
+mermaid:
+  # version: "9.1.3"
+  version: "latest"
 
 featured_posts:
   - /programming/dp

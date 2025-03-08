@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Dynamic Programming
-parent: Programming
+parent: Algorithms
+grand_parent: Programming
 nav_order: 6
 permalink: /programming/dp
 categories: [Dynamic Programming, Algorithms]
