@@ -6,6 +6,5 @@ has_children: true
 permalink: /programming
 ---
 
-# Below are the Subtopics
 
 
