@@ -6,5 +6,3 @@ has_children: true
 permalink: /travelling
 ---
 
-# Below are the Subtopics
-{: .no_toc }
