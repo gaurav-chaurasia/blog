@@ -5,7 +5,6 @@ parent: Unspoken
 nav_order: 1
 permalink: /nohello
 categories: [Unspoken, Communication]
-tags: [chat etiquette, online communication, productivity]
 toc: true
 toc_sticky: true
 date: 2025-03-04
@@ -15,6 +14,8 @@ description: "Improve your online conversations by getting straight to the point
 
 
 # Enough with the ‘Hello’—Spit It Out!
+{% include post-meta.html %}
+
 ---
 Have you ever received a message that just says "Hello"… and then nothing?
 

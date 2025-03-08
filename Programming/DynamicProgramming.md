@@ -5,7 +5,7 @@ parent: Programming
 nav_order: 6
 permalink: /programming/dp
 categories: [Dynamic Programming, Algorithms]
-tags: [dp, recursion, optimization]
+tags: [DP, Recursion, Optimization]
 toc: true
 toc_sticky: true
 date: 2025-01-01
@@ -14,6 +14,7 @@ description: "Learn how to break down complex problems into simpler subproblems 
 
 # How to Conquer Dynamic Programming
 {: .no_toc }
+{% include post-meta.html %}
 
 ---
 ## Table of contents
