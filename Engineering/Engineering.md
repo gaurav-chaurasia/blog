@@ -6,6 +6,4 @@ has_children: true
 permalink: /engineering
 ---
 
-# Below are the Subtopics
-{: .no_toc }
 
