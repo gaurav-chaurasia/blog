@@ -3,8 +3,9 @@ layout: default
 title: Rate Limiting and Throttling
 parent: Engineering
 nav_order: 6
-permalink: /engineering/RateLimitingAndThrottling
+permalink: /engineering/rate-limiting-and-throttling
 date: 2025-03-02
+state: Draft
 description: "Explore rate limiting and throttling techniques to control API usage and prevent abuse in distributed systems."
 
 ---

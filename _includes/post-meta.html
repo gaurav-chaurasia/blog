@@ -1,5 +1,8 @@
 <div class="post-meta">
-    <span class="post-date"> {{ page.date | date: "%B %d, %Y" }}</span>
+    <span class="post-date">
+        <span class="status-dot {% if page.state == 'Draft' %}status-draft{% else %}status-published{% endif %}"></span>
+        {{ page.date | date: "%b %d, %Y" }}
+    </span>
 
     {% if page.categories %}
     <span class="post-categories"> | 
@@ -56,6 +59,22 @@
 
 .post-meta .post-tags::before {
     margin-right: 5px;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.status-draft {
+    background-color: #ff4444;
+}
+
+.status-published {
+    background-color: #4CAF50;
 }
 
 </style>
