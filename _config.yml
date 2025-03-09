@@ -58,7 +58,7 @@ mermaid:
   version: "latest"
 
 featured_posts:
-  - /programming/dp
+  #- /programming/dp
   - /nohello
 
 
