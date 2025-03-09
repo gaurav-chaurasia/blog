@@ -5,7 +5,7 @@ parent: Engineering
 nav_order: 6
 permalink: /engineering/kubernetes
 date: 2025-03-09
-categories: [Kubernetes, Container Orchestration, Borg]
+categories: [Kubernetes, Container Orchestration, Borg, K8s]
 state: Draft
 description: "Explore rate limiting and throttling techniques to control API usage and prevent abuse in distributed systems."
 
