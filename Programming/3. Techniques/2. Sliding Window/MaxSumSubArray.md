@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Max Sum Sub Array of Size K
+title: Max Sum Sub Array
 parent: Sliding Window
 grand_parent: Problem-Solving Patterns
 nav_order: 2

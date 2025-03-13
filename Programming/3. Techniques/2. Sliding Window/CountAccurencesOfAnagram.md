@@ -9,7 +9,7 @@ tags: [Problem-Solving Pattern, Sliding Window]
 date: 2021-05-27
 ---
 
-# Maximum Sum Subarray of Size K
+# Accurences of Anagram
 {% include post-meta.html %}
 
 ---
