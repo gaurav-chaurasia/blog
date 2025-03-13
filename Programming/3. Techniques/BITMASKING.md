@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bit Masking
-nav_order: 2
+# nav_order: 2
 parent: Problem-Solving Patterns
 grand_parent: Programming
 tags: #[DP, Recursion, Optimization]
