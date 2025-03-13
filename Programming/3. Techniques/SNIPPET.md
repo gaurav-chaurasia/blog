@@ -4,11 +4,17 @@ title: Code Snippet
 nav_order: 1
 parent: Problem-Solving Patterns
 grand_parent: Programming
-tags: [DP, Recursion, Optimization]
+tags: #[]
 toc: true
 toc_sticky: true
 date: 2025-01-01
 permalink: /programming/problem-solving-pattern/snippet
+---
+
+# Code Snippets
+{: .no_toc }
+{% include post-meta.html %}
+
 ---
 
 ## Table of contents
@@ -18,7 +24,6 @@ permalink: /programming/problem-solving-pattern/snippet
 
 --- 
 
-# Code Snippets
 
 - #### Max-Sum-Subarray
 ```cpp
