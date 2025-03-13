@@ -8,6 +8,5 @@ permalink: /programming/problem-solving-pattern
 ---
 
 # Problem-Solving Patterns
-{: .no_toc }
 
 
