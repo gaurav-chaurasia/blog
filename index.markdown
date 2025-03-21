@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+has_children: false
 ---
 
 > # *It's just me talking to myself about myself and some other techy stuff you know!!! 💻*
