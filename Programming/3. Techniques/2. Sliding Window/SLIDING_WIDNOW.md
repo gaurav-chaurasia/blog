@@ -5,6 +5,7 @@ parent: Problem-Solving Patterns
 grand_parent: Programming
 has_children: true
 nav_order: 2
+published: false
 permalink: /programming/problem-solving-pattern/sliding-window
 tags: [Problem-Solving Pattern]
 date: 2025-01-01
