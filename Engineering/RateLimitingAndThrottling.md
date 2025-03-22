@@ -21,7 +21,7 @@ description: "Explore rate limiting and throttling techniques to control API usa
 {:toc}
 --- 
 
-# What is Rate Limiting?
+
 Work in progress...
 
 <!-- # What is Throttling -->
