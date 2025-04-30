@@ -14,4 +14,4 @@ toc_sticky: true
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}
