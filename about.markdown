@@ -119,4 +119,4 @@ shall we?
 </style> -->
 
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}

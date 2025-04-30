@@ -58,6 +58,6 @@ graph LR
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}
 
 

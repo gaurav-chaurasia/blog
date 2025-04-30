@@ -29,4 +29,4 @@ Work in progress...
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}

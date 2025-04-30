@@ -231,4 +231,4 @@ So, keep practicing, and soon you'll find DP problems much easier to tackle! ðŸš
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}

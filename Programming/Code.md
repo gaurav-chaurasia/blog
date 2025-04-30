@@ -18,4 +18,4 @@ permalink: /programming/code
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}

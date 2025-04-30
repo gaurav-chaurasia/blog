@@ -33,6 +33,6 @@ description: "Explore rate limiting and throttling techniques to control API usa
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}
 
 

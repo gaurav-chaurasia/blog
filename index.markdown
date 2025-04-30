@@ -31,6 +31,6 @@ has_children: false
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}
 
 

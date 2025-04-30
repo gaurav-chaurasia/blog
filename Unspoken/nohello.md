@@ -32,4 +32,4 @@ This small change makes chats more efficient and respects everyone's time. Letâ€
 
 ---
 
-{% include FeaturedBlogs.html %}
+{% include featured-blogs.html %}
