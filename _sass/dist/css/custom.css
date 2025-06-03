@@ -55,7 +55,7 @@ svg {
 
 .blog-card:hover {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
-  border: 1px solid #000000;
+  border: 1px solid rgba(200, 200, 200, 0.7294117647);
 }
 
 .blog-card h3 {

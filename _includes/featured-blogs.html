@@ -17,29 +17,37 @@
  -->
 
 <div class="featured-blogs">
-  <h1># Featured posts</h1>
-  <div class="cards-container mt-6">
-    {% assign has_featured_posts = false %}
-
-    {% for path in site.featured_posts %}
-      {% assign post = site.pages | where: "permalink", path | first %}
-      {% if post and post.url != page.url %}
-        {% assign has_featured_posts = true %}
-        <div class="blog-card">
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-          <p class="description">{{ post.description }}</p>
-          <a class="read-more" href="{{ post.url | relative_url }}">Read More →</a>
+    <h1># Featured posts</h1>
+        <div class="cards-container">
+            {% assign has_featured_posts = false %} {% for path in
+            site.featured_posts %} {% assign post = site.pages | where:
+            "permalink", path | first %} {% if post and post.url != page.url %}
+            {% assign has_featured_posts = true %}
+            <div class="cards-outline-bh ">
+              <div class="blog-card">
+                <h3>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+                <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+                <p class="description">{{ post.description }}</p>
+                <a class="read-more" href="{{ post.url | relative_url }}"
+                    >Read More →</a
+                >
+            </div>
+            </div>
+            
+            {% endif %} {% endfor %} {% unless has_featured_posts %}
+            <div class="cards-outline-bh ">
+              <div class="blog-card">
+                  <p class="description">
+                      Looks like our featured posts are on a top-secret mission.
+                      Or maybe they're just on a coffee break. Check back
+                      later—hopefully, they'll return with souvenirs!
+                  </p>
+              </div>
+            </div>
+            {% endunless %}
         </div>
-      {% endif %}
-    {% endfor %}
-
-    {% unless has_featured_posts %}
-      <div class="blog-card">
-        <!-- <h3>Well, This is Awkward...!</h3> -->
-        <p class="description">Looks like our featured posts are on a top-secret mission. Or maybe they're just on a coffee break. Check back later—hopefully, they'll return with souvenirs!</p>
-      </div>
-    {% endunless %}
-  </div>
+    </div>
 </div>
 
