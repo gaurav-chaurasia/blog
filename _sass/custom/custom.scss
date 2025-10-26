@@ -27,7 +27,7 @@ svg {
 
 
 .featured-blogs {
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-bottom: 500px;
   background-color: #f1f1f153;
   padding: 10px;
@@ -38,10 +38,16 @@ svg {
   box-shadow: rgba(216, 216, 216, 0.501) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
+.featured-blogs h1 {
+  text-align: center;
+  font-family: fantasy;
+}
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  align-items: center;
 }
 
 .blog-card {
@@ -49,13 +55,10 @@ svg {
   color: #333;
   border-radius: 6px;
   padding: 15px;
-  margin: 10px;
   width: 100%;
-  max-width: 650px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease-in-out;
   border: 1px solid #00000000;
-  // margin-bottom: 50px;
   // border: none !important;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 26.91px;
@@ -67,6 +70,10 @@ svg {
   // transform: translateY(-3px);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
   border: 1px solid #c8c8c8ba;
+}
+
+.cards-outline-bh {
+  width: 100%;
 }
 
 .blog-card h3 {

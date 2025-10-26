@@ -13,18 +13,19 @@
       {% endif %}
     {% endfor %}
   </div>
-</div>
- -->
+</div> -->
+
 
 <div class="featured-blogs">
     <h1># Featured posts</h1>
-        <div class="cards-container">
-            {% assign has_featured_posts = false %} {% for path in
-            site.featured_posts %} {% assign post = site.pages | where:
-            "permalink", path | first %} {% if post and post.url != page.url %}
-            {% assign has_featured_posts = true %}
-            <div class="cards-outline-bh ">
-              <div class="blog-card">
+    <br>
+    <div class="cards-container">
+        {% assign has_featured_posts = false %} {% for path in
+        site.featured_posts %} {% assign post = site.pages | where: "permalink",
+        path | first %} {% if post and post.url != page.url %} {% assign
+        has_featured_posts = true %}
+        <div class="cards-outline-bh">
+            <div class="blog-card">
                 <h3>
                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h3>
@@ -34,20 +35,18 @@
                     >Read More →</a
                 >
             </div>
-            </div>
-            
-            {% endif %} {% endfor %} {% unless has_featured_posts %}
-            <div class="cards-outline-bh ">
-              <div class="blog-card">
-                  <p class="description">
-                      Looks like our featured posts are on a top-secret mission.
-                      Or maybe they're just on a coffee break. Check back
-                      later—hopefully, they'll return with souvenirs!
-                  </p>
-              </div>
-            </div>
-            {% endunless %}
         </div>
+
+        {% endif %} {% endfor %} {% unless has_featured_posts %}
+        <div class="cards-outline-bh">
+            <div class="blog-card">
+                <p class="description">
+                    Looks like our featured posts are on a top-secret mission.
+                    Or maybe they're just on a coffee break. Check back
+                    later—hopefully, they'll return with souvenirs!
+                </p>
+            </div>
+        </div>
+        {% endunless %}
     </div>
 </div>
-
