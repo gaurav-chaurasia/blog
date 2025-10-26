@@ -22,75 +22,68 @@ svg {
 
 .featured-blogs {
   margin-bottom: 500px;
-  background-color: rgba(241, 241, 241, 0.3254901961);
-  padding: 10px;
-  padding-top: 30px;
+  background-color: rgba(241, 241, 241, 0.32);
+  padding: 30px 10px 10px;
   border-radius: 16px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-  box-shadow: rgba(216, 216, 216, 0.501) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgba(216, 216, 216, 0.5) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
-
 .featured-blogs h1 {
   text-align: center;
   font-family: fantasy;
 }
-
-.cards-container {
+.featured-blogs .cards-container {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   align-items: center;
 }
-
-.blog-card {
-  background: #ffffff;
+.featured-blogs .cards-outline-bh {
+  width: 100%;
+}
+.featured-blogs .blog-card {
+  background: #fff;
   color: #333;
   border-radius: 6px;
   padding: 15px;
   width: 100%;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease-in-out;
-  border: 1px solid rgba(0, 0, 0, 0);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 26.91px;
-  box-shadow: 0px 0px 5px 5px rgba(200, 200, 200, 0.1);
+  border: 1px solid transparent;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0px 0px 5px 5px rgba(200, 200, 200, 0.1), rgba(0, 0, 0, 0.15) 0px 4px 26.91px;
 }
-
-.blog-card:hover {
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(200, 200, 200, 0.7294117647);
+.featured-blogs .blog-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(200, 200, 200, 0.73);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.1) 0px 6px 20px;
 }
-
-.cards-outline-bh {
-  width: 100%;
-}
-
-.blog-card h3 {
+.featured-blogs .blog-card h3 {
   margin: 0 0 8px;
   font-size: 18px;
 }
-
-.blog-card .date {
+.featured-blogs .blog-card h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+.featured-blogs .blog-card h3 a:hover {
+  color: #007bff;
+}
+.featured-blogs .blog-card .date {
   font-size: 12px;
   color: #666;
   margin-bottom: 8px;
 }
-
-.blog-card .description {
+.featured-blogs .blog-card .description {
   font-size: 14px;
   color: #444;
   margin-bottom: 12px;
+  line-height: 1.5;
 }
-
-.blog-card .read-more {
+.featured-blogs .blog-card .read-more {
   font-size: 13px;
   color: #007bff;
   font-weight: bold;
   text-decoration: none;
 }
-
-.blog-card .read-more:hover {
+.featured-blogs .blog-card .read-more:hover {
   text-decoration: underline;
 }
 
