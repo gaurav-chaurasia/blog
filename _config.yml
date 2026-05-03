@@ -59,7 +59,8 @@ mermaid:
 
 featured_posts:
   #- /programming/dp
-  - /exploration/the-wall
+  # - /exploration/the-wall
+  - /engineering/distributed-systems/dns
   - /nohello
   - /ai/does-ai-actually-understand
 
