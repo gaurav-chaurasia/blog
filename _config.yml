@@ -60,6 +60,7 @@ mermaid:
 featured_posts:
   #- /programming/dp
   # - /exploration/the-wall
+  - /engineering/foundation/cpp-senior-perspective
   - /engineering/distributed-systems/dns
   - /nohello
   - /ai/does-ai-actually-understand
